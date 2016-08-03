@@ -7,11 +7,20 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.clarkhinchcliff.anotherapp.MainActivity">
+    tools:context="com.example.clarkhinchcliff.anotherapp.MainActivity"
+    android:background="#00FF00">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hi Clark"
-        android:id="@+id/hiClark" />
+        android:id="@+id/hiClark"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="1dp"
+        android:textStyle="bold|italic"
+        android:typeface="sans" />
 </RelativeLayout>
