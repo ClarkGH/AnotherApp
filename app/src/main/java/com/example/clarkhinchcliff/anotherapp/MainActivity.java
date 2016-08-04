@@ -8,11 +8,10 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
-    EditText myTextField = (EditText) findViewById(R.id.textField);
 
     public void clickEvent(View view) {
-        //        Log.i("Message", myTextField.toString());
-        Log.i("Message", "hi");
+        EditText inputTextField = (EditText) findViewById(R.id.textField);
+        Log.i("Message", inputTextField.getText().toString());
     }
 
     @Override
