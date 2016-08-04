@@ -4,11 +4,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
 
+    EditText myTextField = (EditText) findViewById(R.id.textField);
+
+
     public void clickEvent(View view) {
-        Log.i("Yo", "What up?");
+        Log.i("Message", myTextField.getText().toString());
     }
 
     @Override
