@@ -10,20 +10,6 @@
     tools:context="com.example.clarkhinchcliff.anotherapp.MainActivity"
     android:background="#00FF00">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hi Clark"
-        android:id="@+id/hiClark"
-        android:layout_marginTop="22dp"
-        android:layout_marginLeft="22dp"
-        android:layout_alignParentStart="false"
-        android:layout_alignParentRight="false"
-        android:layout_alignParentBottom="true"
-        android:paddingLeft="1dp"
-        android:textStyle="bold|italic"
-        android:typeface="sans" />
-
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -37,9 +23,9 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textField"
+        android:id="@+id/textView"
         android:layout_below="@+id/boop"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="62dp" />
+        android:layout_alignParentStart="true" />
+
 </RelativeLayout>

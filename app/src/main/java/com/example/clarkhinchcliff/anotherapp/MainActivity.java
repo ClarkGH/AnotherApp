@@ -10,7 +10,6 @@ public class MainActivity extends AppCompatActivity {
 
     EditText myTextField = (EditText) findViewById(R.id.textField);
 
-
     public void clickEvent(View view) {
         Log.i("Message", myTextField.getText().toString());
     }
