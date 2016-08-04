@@ -11,9 +11,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void clickEvent(View view) {
-        Toast.makeText(getApplicationContext(), "Hi Clark", Toast.LENGTH_SHORT).show();
         EditText inputTextField = (EditText) findViewById(R.id.textField);
-        Log.i("Message", inputTextField.getText().toString());
+        Toast.makeText(getApplicationContext(), "You said: " + inputTextField.getText().toString(), Toast.LENGTH_SHORT).show();
     }
 
     @Override
