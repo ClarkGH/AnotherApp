@@ -28,4 +28,13 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_above="@+id/boop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="69dp"
+        android:src="@drawable/all_the_things" />
+
 </RelativeLayout>
